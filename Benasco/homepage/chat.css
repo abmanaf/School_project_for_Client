@@ -1,0 +1,116 @@
+body{
+        background-color:  #2e85c2;
+        
+    }
+    .container{
+        background-color: antiquewhite;
+        width: 500px;
+        height: 500px;
+        margin: 0 auto;
+        margin-top: 20px;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+        
+    }
+    .head{
+        width: 500px;
+        height: 100px;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+        font-size: 30px;
+        text-align: center;
+        background-color: antiquewhite;
+        margin: 0 auto;
+        border-radius: 5px;
+        color: black;
+        
+    }
+    .span{
+        margin-left: 125px;
+       font-size: 25px;
+        padding: 12px 10px;
+        
+    }
+    input{
+        margin-top: 30px;
+        margin-left: 100px;
+        padding: 10px 30px;
+        font-size: 20px;
+        border: none;
+        outline: none;
+        height: 100px;
+    }
+    button{
+        margin-top: 140px;
+        width: 250px;
+        padding: 10px 20px;
+        margin-left: 125px;
+        cursor: pointer;
+    }
+    
+    #question_error{
+    margin-top: 25px;
+    width: 300px;
+    height: 10px;
+    font-size: 15px;
+    color: #c62828;
+    background-color: rgba(255, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px 5px;
+    border-radius: 3px;
+    border: 1px solid #ef9a9a;
+    margin: 0 auto;
+    visibility: hidden;
+    
+}
+.header-words{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#2e85c2;
+    
+  }
+  
+  
+  .header-words .link {
+      display: block;
+      color: black;
+      
+      padding: 14px 16px;
+      text-decoration: none;
+      
+    }
+    #bullet{
+      background-color:antiquewhite;
+      width: 100px;
+    }
+    #bullet:hover {
+      background-color:rgb(76, 87, 209);
+    }
+    .hea .fa{
+        margin-right: 5px;
+        
+    }
+    .about_drop{
+        display: none;
+        
+      }
+      .hea ul li:hover .about_drop{
+        display: block;
+        position: absolute;
+        background-color: rgb(76, 87, 209);
+        margin-top: 1px;
+        margin-left: 10px;
+        padding: 10px 10px;
+        margin-bottom: 20px;
+       
+        
+      }
+      
+      
+      .about_drop ul li a{
+        text-decoration: none;
+        color: white;
+      }
+      #ques{
+        margin-left: 115px;
+      }

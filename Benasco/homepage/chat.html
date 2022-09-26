@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="chat.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="hea">
+      
+        <ul class="header-words">
+           
+            
+            <li id="bullet"><a href="index.html" class="link"><i class="fa fa-home" aria-hidden="true" id="fa"></i>BACK</a></li>
+            
+        </ul>
+    </div>
+    <div class="head">
+        <div>CHATROOM</div><BR></BR>
+        
+    </div>
+    <div class="container" >
+        
+        <div id="container">
+        <form action="" name="form" onsubmit="return decisionMaker()"></form>
+        <div class="span">Type your question</div><br>
+        <textarea name="message" id="ques" cols="35" rows="7"></textarea>
+        <!--<input autocomplete="off" type="text" name="question" id="ques">-->
+        <div id="question_error">Type something</div>
+        <button type="submit">Post</button>
+    
+    
+</form>
+</div>
+    </div>
+    <script src="chat.js"></script>
+</body>
+
+</html>

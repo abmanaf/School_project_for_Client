@@ -1,0 +1,119 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(239, 232, 232);
+   
+}
+.container{
+    background-color: #dedede;
+    width: 68em;
+    height: 32em;
+    margin: 0 auto;
+    margin-top: 7px;
+    box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.6);
+    
+    
+}
+.sub-container{
+    background-color: rgb(132, 126, 126);
+    width: 36em;
+    height: 32em;
+    display: flex;
+}
+.flex{
+    margin-top: 20px;
+    
+}
+.flex-2{
+    text-align: center;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    position: relative;
+}
+.name{
+    font-size: 30px;
+    line-height: 48px;
+    margin: 0 0 18px;
+    text-shadow: 1px 0 0 #fff; 
+    margin-left: 20px;
+}
+.differ{
+    margin-left: 20px;
+    font-size: 30px;
+    margin-bottom: 50px;
+    
+}
+.differ input {
+    width: 300px;  
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color: rgb(215, 202, 202);
+    border-radius: 10px;
+    margin-left: 85px;
+    border-bottom: 2px solid black;
+}
+
+.display input{
+    margin-left: 100px;
+    font-size: 15px;
+    margin-bottom: 50px;
+    width: 300px;
+    border: none;
+    outline: none;
+}
+.center{
+    font-size: 35px;
+    font-weight: bold;
+
+}
+.login_form{
+    padding: 20px 40px;
+}
+.font{
+    font-size: 18px;
+    margin: 5px 0;
+    color: #130f40;
+}
+input {
+    height: 40px;
+    width: 350px;
+    padding: 0 5px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid silver;
+}
+.login_form .font2{
+    margin-top: 30px;
+}
+button{
+    margin: 45px 0 30px 0 ;
+    height: 45px;
+    width: 365px;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #1a23;
+    border-radius: 3px;
+    border: 1px solid rgba(75, 149, 87, 0.6);
+}
+button:hover{
+    background-color: rgba(72, 172, 89, 0.6);
+}
+#email_error, #password_error{
+    margin-top: 5px;
+    width: 345px;
+    font-size: 15px;
+    color: #c62828;
+    background-color: rgba(255, 0, 0, 0.1);
+    text-align: center;
+    padding: 5px 8px;
+    border-radius: 3px;
+    border: 1px solid #ef9a9a;
+    display: none;
+}
